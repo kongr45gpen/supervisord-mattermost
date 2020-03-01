@@ -33,7 +33,7 @@ while (true) {
     }
 
     if ($report) {
-        sendIrcMessage(sprintf("%s[%s]: %s",
+        sendMmMessage(sprintf("%s[%s]: %s",
             $data['groupname'],
             ircColour($data['processname'], Colour::Cyan),
 //            strtolower($data['from_state']),
